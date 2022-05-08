@@ -373,6 +373,7 @@ textarea{
 
     
 }
+
 #okay2{
 color: black;
 padding:10px 20px;
@@ -399,144 +400,31 @@ button{
 }
 
 #footer{
-    height: 200px;
-    background-color: #325f5f;
-    margin-top: -15px;
-    display: flex;
-    justify-content: center;
-    clear: both;
-    /* position: fixed; */
-}
-
-.footer1 ul{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 17px;
-    padding-right: 200PX;
-}
-
-
-.footer1 a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 17px;
-font-weight: bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
-
-    
-
-}
-
-
-
-.footer1 li{
-    padding: 5px;
-}
-
-.footer2 a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 17px;
-font-weight: bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
-}
-
-
-.footer2 ul{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 17px;
-
-}
-
-.footer2 li{
-    padding: 5px;
-}
-
-.footer3 a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-font-weight: bold;
-
-    font-size: 17px;
-
-}
-
-
-.footer3 ul{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 17px;
-padding-left: 200PX;
-}
-
-
-.footer3 li{
-    padding: 5px;
-}
-
-
-.footer3 a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 17px;
-font-weight: 700;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
- .footer1 a:hover{
-    color: white;
-}
-
-.footer2 a:hover{
-    color: white;
-}
-
-.footer3 a:hover{
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-}
-.footer2 H3{
-    margin: 0%;
-}
-.footer3 h3{
-    margin: 0%;
-}
-.footer1 h3{
-    margin: 0%;
-}
-
-
-table tr th{
-    /* width: 70%; */
-    border: 1px solid black;
-    text-align: left;
-}
-.info a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #426868;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-}
-.info a:hover{
-    background-color: #1f4646;
-/* }.info h5{ */
-    /* margin-top: -400px; */
-}
-.content4{
+    height: 380px;
     width: 100vw;
-    height: 100vh;
-    background-color: #141f1f;
+    background-color: #1f4646;
 }
-aside{
-    width: 250px;
-    float: right;
+.setfooter{
+    display: flex;
 }
-.info{
-    border-radius: 20px;
+#footer ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+#footer li a{
+    color: #89cfcf;
+    text-decoration: none;
+}
+#footer li h3{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer li{
+    padding:10px 70px;
+}
+#footer a:hover{
+    color: #141f1f;
+    font-weight: bold;
 }
