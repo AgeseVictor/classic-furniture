@@ -331,6 +331,20 @@ input{
     height: 20px;
 
 }
+.downer{
+    padding-top: 20px;
+}
+.neat{
+    padding: 10px 20px;
+    background-color: #426868;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.neat:hover{
+    background-color: #1f4646;
+    color: white;
+}
 textarea{
     border: none;
     border-radius: 5px;
@@ -413,11 +427,13 @@ button{
     padding: 0%;
 }
 #footer li a{
-    color: #89cfcf;
+    color: #44e2e2;
     text-decoration: none;
+    font-size: 18px;
 }
 #footer li h3{
     color: white;
+    font-size: 15px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -425,6 +441,6 @@ button{
     padding:10px 70px;
 }
 #footer a:hover{
-    color: #141f1f;
-    font-weight: bold;
+    color: #213030;
+    /* font-weight: bold; */
 }
